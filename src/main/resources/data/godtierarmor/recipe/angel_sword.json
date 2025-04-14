@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "godtierarmor:godly_metal",
+    "$": "minecraft:diamond_sword",
+    "%": "godtierarmor:angel_eye"
+  },
+  "pattern": [
+    "###",
+    "#$#",
+    "#%#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "godtierarmor:angel_sword"
+  }
+}
