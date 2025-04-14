@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "godtierarmor:godly"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "godtierarmor:godly"
+      }
+    ]
+  }
+}
