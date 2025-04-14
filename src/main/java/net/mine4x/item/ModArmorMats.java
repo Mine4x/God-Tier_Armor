@@ -19,15 +19,15 @@ public class ModArmorMats {
     public static final ArmorMaterial INSTANCE = new ArmorMaterial(
             BASE_DURABILITY,
             Map.of(
-                    EquipmentType.HELMET, 3,
-                    EquipmentType.CHESTPLATE, 8,
-                    EquipmentType.LEGGINGS, 6,
-                    EquipmentType.BOOTS, 3
+                    EquipmentType.HELMET, 60,
+                    EquipmentType.CHESTPLATE, 160,
+                    EquipmentType.LEGGINGS, 120,
+                    EquipmentType.BOOTS, 60
             ),
-            5,
+            1000,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON,
-            0.0F,
-            0.0F,
+            10.0F,
+            10.0F,
             ModTags.Items.GODLY_METALS,
             GODLY_ARMOR_MATERIAL_KEY
     );

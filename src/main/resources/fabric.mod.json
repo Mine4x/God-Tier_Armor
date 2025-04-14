@@ -3,9 +3,9 @@
 	"id": "godtierarmor",
 	"version": "${version}",
 	"name": "GodTierArmor",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Armor",
 	"authors": [
-		"Me!"
+		"Mine4x"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
