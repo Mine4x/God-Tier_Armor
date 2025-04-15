@@ -9,10 +9,10 @@ public class GodTierArmorDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-		//pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModBlockTagProvider::new);
 		//pack.addProvider(ModItemTagProvider::new);
-		//pack.addProvider(ModLootTableProvider::new);
-		pack.addProvider(ModModleProvider::new);
+		pack.addProvider(ModLootTableProvider::new);
+		//pack.addProvider(ModModleProvider::new);
 		//pack.addProvider(ModRecipeProvider::new);
 	}
 }
