@@ -2,6 +2,10 @@
   "item.godtierarmor.angel_tear": "Angel Tear",
   "item.godtierarmor.angel_eye": "Angel Eye",
   "item.godtierarmor.angel_metal": "old Angelic Metal",
-  "item.godtierarmor.angel_sword": "Goldy Sword",
-  "item.godtierarmor.godly_metal": "Ingot of Goldy Metal"
+  "item.godtierarmor.angel_sword": "Godly Sword",
+  "item.godtierarmor.godly_metal": "Ingot of Goldy Metal",
+  "item.godtierarmor.godly_shoes": "Godly Boots",
+  "item.godtierarmor.godly_leggins": "Godly Leggings",
+  "item.godtierarmor.godly_chestplate": "Godly Chestplate",
+  "item.godtierarmor.godly_helmet": "Godly Helmet"
 }

@@ -16,6 +16,8 @@ public class ModBlocks {
 
     public static final Block ANGEL_ORE = registerBlock("angel_ore",
             AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE));
+    public static final Block DEEPSLATE_ANGEL_ORE = registerBlock("deepslate_angel_ore",
+            AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
 
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(GodTierArmor.MOD_ID, name));

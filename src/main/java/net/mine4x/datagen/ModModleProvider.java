@@ -43,10 +43,5 @@ public class ModModleProvider extends FabricModelProvider {
                 "boots", false);
 
         //itemModelGenerator.register(ModBlocks.ANGEL_ORE.asItem(), Models.CUBE_ALL);
-
-        //itemModelGenerator.registerArmor(((ArmorItem) ModItems.GODLY_SHOES), ModArmorMats.GODLY_ARMOR_MATERIAL_KEY, null ,false);
-        //itemModelGenerator.registerArmor(((ArmorItem) ModItems.GODLY_LEGGINS), ModArmorMats.GODLY_ARMOR_MATERIAL_KEY, null ,false);
-        //itemModelGenerator.registerArmor(((ArmorItem) ModItems.GODLY_CHESTPLATE), ModArmorMats.GODLY_ARMOR_MATERIAL_KEY, null ,false);
-        //itemModelGenerator.registerArmor(((ArmorItem) ModItems.GODLY_HELMET), ModArmorMats.GODLY_ARMOR_MATERIAL_KEY, null ,false);
     }
 }

@@ -17,5 +17,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.ANGEL_ORE, oreDrops(ModBlocks.ANGEL_ORE,ModItems.ANGEL_METAL));
+        addDrop(ModBlocks.DEEPSLATE_ANGEL_ORE, oreDrops(ModBlocks.DEEPSLATE_ANGEL_ORE,ModItems.ANGEL_METAL));
     }
 }
