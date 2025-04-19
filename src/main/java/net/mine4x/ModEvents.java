@@ -21,7 +21,7 @@ public class ModEvents {
             Identifier itemId = Registries.ITEM.getId(item);
 
             // Check if the item is your custom sword by ID
-            if (!world.isClient && itemId != null && itemId.toString().equals("godtierarmor:angel_sword")) {
+            if (!world.isClient && itemId != null && itemId.toString().equals("godtierarmor:angel_sword") && ModFlightHandler.isInOverworld(player)) {
                 if (entity instanceof LivingEntity target) {
                     // Set entity on fire
                     target.setOnFireFor(5);
